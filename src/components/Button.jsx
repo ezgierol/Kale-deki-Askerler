@@ -6,7 +6,7 @@ export default function Button({ stateProps }) {
       <button
         onClick={() => stateProps.setGameRunning(!stateProps.gameRunning)}
       >
-        {stateProps.gameRunning ? 'Oynat' : 'Duraklat'}
+        {stateProps.gameRunning ? 'Duraklat' : 'Oynat'}
       </button>
     </div>
   )
